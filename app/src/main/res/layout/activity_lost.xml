@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LostActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/ivLostDisplay"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layoutDirection="ltr" android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="rtl"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:textColor="#7C4DFF"
+        android:background="#FFFF00"
+        android:id="@+id/tvLostDisplayId"
+        android:text="LOST"
+        android:padding="2dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="rtl"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:background="#7C4DFF"
+        android:textColor="#FFFF00"
+        android:id="@+id/btnLostGoBackId"
+        android:text="משחק נוסף"
+        android:padding="2dp"/>
+
+</LinearLayout>
